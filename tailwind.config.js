@@ -1,10 +1,16 @@
 // tailwind.config.js
 module.exports = {
   purge: {
-    enabled: false,
+    enabled: true,
     content: ['./src/**/*.js', './src/**/*.jsx', './public/index.html'],
   },
-  theme: {},
+  theme: {
+    extend: {
+      colors: {
+        'custom-pink': '#ff00ff',
+      },
+    },
+  },
   variants: {},
   plugins: [],
 };

@@ -3,9 +3,9 @@ import './tailwind.css';
 
 function App() {
   return (
-    <div className="max-w-xl mx-auto px-8 py-4 bg-white rounded-lg shadow-lg">
+    <div className="card-wrapper">
       <div className="mt-2">
-        <p className="text-2xl text-gray-700 font-bold">
+        <p className="text-2xl text-custom-pink font-bold">
           Becoming a full-stack developer
         </p>
         <p className="mt-2 text-gray-600">
